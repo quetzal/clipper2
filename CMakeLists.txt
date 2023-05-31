@@ -10,7 +10,6 @@ set (SRCS   ${CMAKE_CURRENT_SOURCE_DIR}/include/clipper2/clipper.h
 			${CMAKE_CURRENT_SOURCE_DIR}/src/clipper.engine.cpp
 			${CMAKE_CURRENT_SOURCE_DIR}/src/clipper.offset.cpp
 			${CMAKE_CURRENT_SOURCE_DIR}/src/clipper.rectclip.cpp
-
 			)
 __add_real_target(clipper2 lib SOURCE ${SRCS}
 								  INC ${INCS}
