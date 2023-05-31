@@ -18,5 +18,5 @@ __add_real_target(clipper2 lib SOURCE ${SRCS}
 								)
 
 if(CC_INSTALL_CLIPPER2)
-	__install_directory_specif(${CMAKE_CURRENT_SOURCE_DIR}/include clipper2)
+	__install_directory_specif(${CMAKE_CURRENT_SOURCE_DIR}/include/ clipper2)
 endif()
