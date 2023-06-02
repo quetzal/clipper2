@@ -13,7 +13,7 @@ set (SRCS   ${CMAKE_CURRENT_SOURCE_DIR}/include/clipper2/clipper.h
 			)
 __add_real_target(clipper2 lib SOURCE ${SRCS}
 								  INC ${INCS}
-								
+								INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/include/
 								)
 
 if(CC_INSTALL_CLIPPER2)
