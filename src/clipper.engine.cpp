@@ -13,6 +13,7 @@
 #include <vector>
 #include <numeric>
 #include <algorithm>
+#include <limits>
 #include "clipper2/clipper.engine.h"
 
 namespace Clipper2Lib {
