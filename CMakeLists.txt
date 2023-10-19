@@ -1,3 +1,4 @@
+set(CMAKE_CXX_STANDARD 17)
 
 set(INCS    ${CMAKE_CURRENT_SOURCE_DIR}/include/)
 set (SRCS   ${CMAKE_CURRENT_SOURCE_DIR}/include/clipper2/clipper.h
