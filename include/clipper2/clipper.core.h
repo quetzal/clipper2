@@ -10,6 +10,9 @@
 #ifndef CLIPPER_CORE_H
 #define CLIPPER_CORE_H
 
+#include <stddef.h>
+#include <limits.h>
+
 #include <cstdlib>
 #include <cmath>
 #include <vector>
