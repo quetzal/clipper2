@@ -9,7 +9,7 @@
 
 #ifndef CLIPPER_CORE_H
 #define CLIPPER_CORE_H
-
+#include <limits>
 #include <cstdlib>
 #include <cmath>
 #include <vector>
