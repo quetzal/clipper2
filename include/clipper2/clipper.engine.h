@@ -11,7 +11,7 @@
 #define CLIPPER_ENGINE_H
 
 constexpr auto CLIPPER2_VERSION = "1.0.6";
-
+#include <limits>
 #include <cstdlib>
 #include <queue>
 #include <stdexcept>
